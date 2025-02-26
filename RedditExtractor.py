@@ -8,11 +8,11 @@ UA = 'App by /u/kostasDev28' #UA = 'yourAPP by /u/yourname
 
 # Reddit API authentication
 reddit = praw.Reddit(
-     client_id='',  # Replace with your client_id
-     client_secret='',  # Replace with your client_secret
-     user_agent=UA,
-     username='',  # Replace with your username
-     password=''  # Replace with your password
+     client_id='YOUR_CLIENT_ID',
+     client_secret='YOUR_CLIENT_SECRET',
+     user_agent='YOUR_USER_AGENT',
+     username='YOUR_USERNAME',
+     password='YOUR_PASSWORD'
 )
 
 # List of subreddits to scrape
