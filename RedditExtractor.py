@@ -4,14 +4,14 @@ import csv
 import os
 
 # User-Agent for Reddit API
-UA = 'App by /u/kostasDev28'
+UA = 'App by /u/kostasDev28' #UA = 'yourAPP by /u/yourname
 
 # Reddit API authentication
 reddit = praw.Reddit(
-     client_id='FGCufctiM2z1MKQ',  # Replace with your client_id
-     client_secret='Wyrzwdq62Tlo8WGyw',  # Replace with your client_secret
+     client_id='',  # Replace with your client_id
+     client_secret='',  # Replace with your client_secret
      user_agent=UA,
-     username='ko28',  # Replace with your username
+     username='',  # Replace with your username
      password=''  # Replace with your password
 )
 
