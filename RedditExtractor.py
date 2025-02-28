@@ -21,8 +21,8 @@ all_submissions = []
 all_comments = []
 
 # CSV filenames
-posts_csv_file = "reddit_posts6.csv"
-comments_csv_file = "reddit_comments6.csv"
+posts_csv_file = "reddit_posts.csv"
+comments_csv_file = "reddit_comments.csv"
 
 # Load existing post IDs to prevent duplicate entries
 existing_post_ids = set()
